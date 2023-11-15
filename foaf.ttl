@@ -16,7 +16,7 @@
    foaf:primaryTopic <#jy> ;
    dc:creator <#jy> .
 
-<#ah> a foaf:Person ;
+<#jy> a foaf:Person ;
    rdfs:label "Jerohem Yáñez" ;
    rdfs:comment "Anakena FC player, champion of the FCFM internal tournament"@en , "Jugador de Anakena FC, campeón del torneo interno de la FCFM"@es ;
    foaf:name "Jerohem Yáñez" ;
