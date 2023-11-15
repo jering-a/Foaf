@@ -1,0 +1,34 @@
+@base <https://raw.githubusercontent.com/jering-a/Foaf/main/foaf.ttl> .
+
+@prefix jy: <https://raw.githubusercontent.com/jering-a/Foaf/main/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2023-11-15"^^xsd:date ;
+   dc:title "Jerohem's FOAF Profile"@en ;
+   foaf:primaryTopic <#jy> ;
+   dc:creator <#jy> .
+
+<#ah> a foaf:Person ;
+   rdfs:label "Jerohem Yáñez" ;
+   rdfs:comment "Anakena FC player, champion of the FCFM internal tournament"@en , "Jugador de Anakena FC, campeón del torneo interno de la FCFM"@es ;
+   foaf:name "Jerohem Yáñez" ;
+   foaf:givenName "Jerohem" ;
+   foaf:familyName "Yáñez" ;
+   foaf:age 23 ;
+   foaf:img <https://raw.githubusercontent.com/jering-a/Foaf/main/yo.png> ;
+   foaf:homepage <https://github.com/jering-a> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <https://users.dcc.uchile.cl/~nescobar/foaf.ttl#nez> , <https://raw.githubusercontent.com/Cynthia-Vega/profile/main/perfil.ttl#cv> , <https://raw.githubusercontent.com/CrisFTP/CristobalQuilodran/main/foaf-caqm.ttl#caqm> , <https://raw.githubusercontent.com/JFeliu01/FOAFJfeliu/main/foaf.ttl#jf> ;
+   foaf:interest dbr:Semantic_Web , dbr:Brawl_Stars , dbr:Hip_hop_music , dbr:Artificial_intelligence; 
+   social:likesMovie dbr:Shrek_2 ;
+   social:hasSpiritAnimal dbr:Ferret ;
+   social:hasFavouritePlatonicSolid dbr:Icosahedron ;
+   foaf:birthday "--12-15"^^xsd:gMonthDay ;
+   foaf:nick "Jero" .
